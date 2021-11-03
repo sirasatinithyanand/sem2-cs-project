@@ -1,0 +1,10 @@
+void PlayfairCrypt(char str[], char keystr[]);
+void toUpperCase(char encrypt[], int ps);
+int removeSpaces(char *plain, int ps);
+void generateKeyTable(char keystr[], int ks, char keyT[5][5]);
+int prepare(char str[], int ptrs);
+void search(char keyT[5][5], char a, char b, int arr[]);
+void encrypt(char str[], char keyT[5][5], int ps);
+void PlayfairDeCrypt(char str[], char keystr[]);
+void toLowerCase(char plain[], int ps);
+void decrypt(char str[], char keyT[5][5], int ps);
